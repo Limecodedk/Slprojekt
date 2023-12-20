@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-menu {
+  background-color: #284B63;
+}
+
+.navbutton-color {
+  background-color: #E0CA3C;
+  width: fit-content;
+  padding: 10px;
+}
+
+.icon-white {
+  filter: invert(1);
+}
+
+.btn-search {
+  background-color: #E0CA3C;
+}
+
+.dateSelect {
+  border: 1px solid #284B63;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.menu {
+  justify-content: flex-end;
+}
+
+.removeNavScroll {
+  overflow: hidden;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    justify-content: space-around;
+    gap: 8rem;
+  }
+}
